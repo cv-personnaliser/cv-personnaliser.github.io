@@ -4,30 +4,221 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>candidature tarot</title>
+    <title>candidature ARCANES</title>
     <link rel="stylesheet" href="./styles.css">
     <link rel="stylesheet" href="./root.css">
     <link rel="stylesheet" href="./reset.css">
     <link rel="icon" href="./images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"
+    />
     <style>
+      body > *{
+    padding:0rem;
+}
+  .wrapper-contenu{
+    background-color: var(--c-lion);
+    max-width:none;
+    flex:6;
+    min-height: 100vh;
+    padding:2rem;
+}
+.wrapper-contenu > * > *{
+  margin-bottom: 2rem;
+  padding: 1rem;
+}
 
+
+.wrapper-border{
+  border: 4px solid var(--c-black-50);
+  border-radius: 55px;
+  padding: 3px;
+}
+.wrapper-border > *{
+border: 4px solid var(--c-black-50);
+padding: 1rem 1rem;
+
+}
+
+
+.grid-items{
+  
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding:2rem;
+  gap:1rem;
+  /*background: linear-gradient(33deg, rgba(217,185,133,0.49) 1%,rgba(217,185,133,0.43) 14%,rgba(245,237,224,0.09) 82%,rgba(245,237,224,0) 100%);  */
+}
+.grid-items > *{
+  width: 100%;
+  background-color: var(--c-black-50);
+  padding: 8px;
+  border: 4px solid var(--c-black-50);
+}
+.grid-items img{
+  width: 100%;
+  padding:5px;
+  border: 4px solid var(--c-lion);
+}
+/*.border{
+  
+  border: 4px solid var(--c-black-50);
+  padding: 1rem;
+}*/
+@media only screen and (min-width:700px){
+      .grid-items{
+        grid-template-columns: repeat(3, 1fr);
+      }  
+}
+@media only screen and (min-width:1080px){
+  .grid-items{
+        grid-template-columns: repeat(4, 1fr);
+      }     
+}
+      
+@media only screen and (min-width:1430px){
+  .grid-items{
+        grid-template-columns: repeat(5, 1fr);
+      }  
+}
+      
+@media only screen and (min-width:1730px){
+  .grid-items{
+        grid-template-columns: repeat(5, 1fr);
+      }  
+}
     </style>
   </head>
   <body>
-    <main>
-        <div class="wrapper-logo">
-            <div class="img-resp">
-                <img src="./images/mon-logo-blanc.png">
+    <main class="flex-2">
+        <div class="wrapper-img">
+            <div class="img-resp" style="padding:8rem;">
+              <img src="./images/mon-logo-blanc.png">
             </div>
         </div> 
-        <div class="wrapper-txt-center">
-            <h1>"obtenu grace à votre compétence *souci du détail* et votre bonus naturel *perception + 8*, voici les arcanes du mini projet CV personnalisé - partie teaser - candidature pour rejoindre l'aventure ludique 221bakerstreet dijon</h1>
+        <div class="wrapper-contenu">
+        <div class="border">
+          <div class="wrapper-border">
+            <h1 style="line-height: 1.77rem;">LES ARCANES DU PROJET:<br>  <span style="font-size: 1rem;">(page visible grâce à votre talent de perception inné : +200xp)</span></h1>
+            
+          </div>
+          
+          <div class="wrapper-border">
+            
+            <p class="" style="margin-bottom: 10px;padding:1rem 2rem;">
+              Voici une présentation du mini projet de candidature. Ici se trouve les fichier sources me servant à travailler.
+              <br>Ces fichiers s'intègrent dans un processus personnel d'indexation de mes projets grâce à du balisage maison et des repere visuels.
+              <br>Au fil de l'eau, ces fichiers sont versionnés, augmentés des réflexions et du testing effectué.
+            </p>
+            <p class="" style="margin-bottom: 10px;padding:1rem 2rem;">
+              J'espère que ma démarche aura suscitée l'intérêt souhaitée et que vous allez trouver comment me contacter grâce aux indices laissés. 
+            </p>
+            
+            <div class="grid-items">
+              <a
+                 data-fancybox="gallery"
+                 data-src="https://lipsum.app/id/2/1024x768"
+                 data-caption="legende de l'image 1"
+                 >
+                <img src="https://lipsum.app/id/2/200x150" />
+              </a>
+        
+              <a
+                data-fancybox="gallery"
+                data-src="https://lipsum.app/id/3/1024x768"
+                data-caption="legende de l'image 2"
+              >
+                <img src="https://lipsum.app/id/3/200x150" />
+              </a>
+        
+              <a
+                data-fancybox="gallery"
+                data-src="https://lipsum.app/id/4/1024x768"
+                data-caption="legende de l'image 3"
+              >
+                <img src="https://lipsum.app/id/4/200x150" />
+              </a>
+              <a
+                 data-fancybox="gallery"
+                 data-src="https://lipsum.app/id/2/1024x768"
+                 data-caption="legende de l'image 1"
+                 >
+                <img src="https://lipsum.app/id/2/200x150" />
+              </a>
+        
+              <a
+                data-fancybox="gallery"
+                data-src="https://lipsum.app/id/3/1024x768"
+                data-caption="legende de l'image 2"
+              >
+                <img src="https://lipsum.app/id/3/200x150" />
+              </a>
+        
+              <a
+                data-fancybox="gallery"
+                data-src="https://lipsum.app/id/4/1024x768"
+                data-caption="legende de l'image 3"
+              >
+                <img src="https://lipsum.app/id/4/200x150" />
+              </a>
+              <a
+                 data-fancybox="gallery"
+                 data-src="https://lipsum.app/id/2/1024x768"
+                 data-caption="legende de l'image 1"
+                 >
+                <img src="https://lipsum.app/id/2/200x150" />
+              </a>
+        
+              <a
+                data-fancybox="gallery"
+                data-src="https://lipsum.app/id/3/1024x768"
+                data-caption="legende de l'image 2"
+              >
+                <img src="https://lipsum.app/id/3/200x150" />
+              </a>
+        
+              <a
+                data-fancybox="gallery"
+                data-src="https://lipsum.app/id/4/1024x768"
+                data-caption="legende de l'image 3"
+              >
+                <img src="https://lipsum.app/id/4/200x150" />
+              </a>
+              <a
+                 data-fancybox="gallery"
+                 data-src="https://lipsum.app/id/2/1024x768"
+                 data-caption="legende de l'image 1"
+                 >
+                <img src="https://lipsum.app/id/2/200x150" />
+              </a>
+        
+              <a
+                data-fancybox="gallery"
+                data-src="https://lipsum.app/id/3/1024x768"
+                data-caption="legende de l'image 2"
+              >
+                <img src="https://lipsum.app/id/3/200x150" />
+              </a>
+        
+              <a
+                data-fancybox="gallery"
+                data-src="https://lipsum.app/id/4/1024x768"
+                data-caption="legende de l'image 3"
+              >
+                <img src="https://lipsum.app/id/4/200x150" />
+              </a>
+            </div>
+          </div>
+        </div>
         </div>
         
-        <div class="wrapper-btn-next">
-            <a href="timer.html" class="btn-next">next</a>
-        </div>
     </main>
+
 	<script src="app.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+  <script>
+    Fancybox.bind('[data-fancybox="gallery"]', {
+      //
+    });    
+  </script>
   </body>
 </html>

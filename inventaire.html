@@ -35,7 +35,7 @@
 }
 .wrapper-border > *{
 border: 4px solid var(--c-black-50);
-padding: 0.33rem 1rem;
+padding: 1rem 1rem;
 
 }
 
@@ -43,7 +43,7 @@ padding: 0.33rem 1rem;
 .grid-items{
   
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: repeat(2, 1fr);
   padding:2rem;
   gap:1rem;
   /*background: linear-gradient(33deg, rgba(217,185,133,0.49) 1%,rgba(217,185,133,0.43) 14%,rgba(245,237,224,0.09) 82%,rgba(245,237,224,0) 100%);  */
@@ -64,6 +64,28 @@ padding: 0.33rem 1rem;
   border: 4px solid var(--c-black-50);
   padding: 1rem;
 }*/
+@media only screen and (min-width:700px){
+      .grid-items{
+        grid-template-columns: repeat(3, 1fr);
+      }  
+}
+@media only screen and (min-width:1080px){
+  .grid-items{
+        grid-template-columns: repeat(4, 1fr);
+      }     
+}
+      
+@media only screen and (min-width:1430px){
+  .grid-items{
+        grid-template-columns: repeat(5, 1fr);
+      }  
+}
+      
+@media only screen and (min-width:1730px){
+  .grid-items{
+        grid-template-columns: repeat(5, 1fr);
+      }  
+}
     </style>
   </head>
   <body>
@@ -76,7 +98,8 @@ padding: 0.33rem 1rem;
         <div class="wrapper-contenu">
         <div class="border">
           <div class="wrapper-border">
-            <h1>Inventaire : </h1>
+            <h1 style="line-height: 1.22rem;">Inventaire :  <span style="font-size: 1rem;">(page visible grâce à votre talent de perception inné : +200xp)</span></h1>
+            
           </div>
           
           <div class="wrapper-border">
