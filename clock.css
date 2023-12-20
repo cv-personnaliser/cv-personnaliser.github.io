@@ -1,0 +1,99 @@
+.logo-animation{
+    background-image: url(./images/bg-clock-2.png);
+    background-repeat: no-repeat no-repeat;
+    background-position: center center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.logo-cartouche{
+   position: relative;
+   display: block;
+   max-width: 500px;
+   margin-left: auto;
+   margin-right: auto;
+}
+.logo-cartouche img{
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -180px;
+ }
+
+.clock {
+border-radius: 50%;
+background: #eee url(./images/clock-3.svg) no-repeat center;
+background-size: 100%;
+height: 250px;
+position: relative;
+width: 250px;
+margin: 2em auto;
+}
+
+.clock.simple:after {
+background: var(--c-yellow);
+border-radius: 50%;
+content: "";
+position: absolute;
+left: 50%;
+top: 50%;
+transform: translate(-50%, -50%);
+width: 10%;
+height: 10%;
+z-index: 10;
+}
+
+.minutes-container, .hours-container, .seconds-container {
+position: absolute;
+top: 0;
+right: 0;
+bottom: 0;
+left: 0;
+}
+
+.hours {
+background: var(--c-yellow);
+height: 20%;
+left: 48.75%;
+position: absolute;
+top: 30%;
+transform-origin: 50% 100%;
+width: 2.5%;
+}
+
+.minutes {
+background: var(--c-yellow);
+height: 40%;
+left: 49%;
+position: absolute;
+top: 10%;
+transform-origin: 50% 100%;
+width: 2%;
+}
+
+.seconds {
+background: var(--c-yellow);
+height: 45%;
+left: 49.5%;
+position: absolute;
+top: 14%;
+transform-origin: 50% 80%;
+width: 1%;
+z-index: 8;
+}
+
+@keyframes rotate {
+100% {
+transform: rotateZ(360deg);
+}
+}
+
+.hours-container {
+animation: rotate 43200s infinite linear;
+}
+.minutes-container {
+transition: transform 0.3s cubic-bezier(.4,2.08,.55,.44);
+}
+.seconds-container {
+transition: transform 0.2s cubic-bezier(.4,2.08,.55,.44);
+}

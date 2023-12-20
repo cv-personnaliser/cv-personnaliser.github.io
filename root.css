@@ -1,0 +1,15 @@
+:root{
+    --c-dark-green: #113B40;
+    --c-sea-green:#2EADA8;
+    --c-yellow: #FFAA1D;
+    --c-sand: #D9B985;
+    --c-lion:#BD9761;
+    --c-cream:#F5EDE0;
+
+    --c-white:#FDFDFD;
+    --c-grey:#DEDEDE;
+    --c-black-50:#00000010;
+
+
+    --bg-body:url("./images/background-body.jpg");
+    }

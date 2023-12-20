@@ -1,0 +1,95 @@
+
+
+body{
+    background-color: var(--c-dark-green);
+    color:var(--c-cream);
+    background-image: var(--bg-body) ;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    font-family: 'arial', sans-serif, monospace;
+}
+body h1{
+    font-weight: bolder;
+}
+body > *{
+    padding:2rem;
+}
+
+
+/**/
+h1{
+    font-size: 2.33rem;
+}
+
+
+hr{
+    margin: 25px 0px;
+    color: var(--c-sea-green);
+}
+/*btn reccurent next page*/
+.wrapper-btn-next{
+    display: block;
+    position: fixed;
+    bottom:0;
+    right:0;
+    margin-bottom: 0px !important;
+    width: 150px;
+    height: 150px;
+    background-image: url(./images/corner.png);
+}
+.wrapper-btn-next a{
+    display: block;
+    font-size: 2.66rem;
+    text-decoration: none;
+    margin-bottom: 0px !important;
+    bottom: 5px;
+    right: 25px;
+    position: absolute;
+    font-weight: bolder;
+    color: var(--c-dark-green);
+}
+
+
+/**/
+.flex-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap:1rem;
+}
+
+.wrapper-img{
+    max-width: 700px;
+    flex:5;
+}
+  .wrapper-contenu{
+    max-width: 600px;
+    flex:6;
+}
+/*wrapper 2 columns Atouts et closer*/
+
+.reverse{flex-direction: row-reverse;}
+
+.flex-2 .wrapper-img img{
+width: 100%;
+}
+@media only screen and (max-width: 760px)  { 
+.flex-2{
+flex-direction: column;
+}
+}
+
+.btn-secret a{
+  
+    margin-left:auto;
+    margin-right: auto;
+  }
+  .btn-secret a{
+    padding: 2rem;
+    text-decoration: none;
+    color: var(--c-sand);
+    font-size: 1.22rem;
+  }

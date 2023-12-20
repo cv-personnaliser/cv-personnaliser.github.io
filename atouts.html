@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>candidature atouts</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./root.css">
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="icon" href="./images/favicon.png" type="image/x-icon">
+    <style>
+body{
+  height: auto;
+}
+      h1{
+        text-align: center;
+      }
+
+      /*list-atout*/
+      .list-atout > *{
+        display: flex;
+        align-items: center;
+        list-style: none;
+        padding:1.33rem;
+        margin-bottom:5px;
+        background: linear-gradient(33deg, rgba(217,185,133,0.49) 1%,rgba(217,185,133,0.43) 14%,rgba(245,237,224,0.09) 82%,rgba(245,237,224,0) 100%);
+        /*background-image: linear-gradient(to right top, #d9b98550, #e0c69b30, #e7d3b220, #eee0c910, #f5ede010);*/
+        border-bottom: 4px  solid var(--c-sea-green);    
+
+      }
+      .list-atout i{
+        margin-right: 1.33rem;
+        font-size: 3rem;
+        color: var(--c-yellow);
+      }
+      .list-atout .bolder{
+        font-size: 1.6rem;
+        font-weight: bold;
+      }
+
+    </style>
+  </head>
+  <body>
+    <h1>CARACTERISTIQUES DU PRODUIT:
+    </h1>
+    <main class="flex-2 reverse">
+        <div class="wrapper-img">
+            <div class="img-resp">
+                <img src="./images/pop-2023-anatomy.png">
+            </div>
+            <div class="btn-secret">
+              <a href="inventaire.html" class="">.</a>
+            </div>
+        </div> 
+        <div class="wrapper-contenu">
+            
+            <ul class="list-atout">
+              <li>
+                <i class="fa-solid fa-glasses"></i>
+                
+                <p><span class="bolder">L' oeil vif</span><br>Perception +5 - Artefact légendaire</p>
+              </li> 
+              <li>
+                <i class="fa-solid fa-music"></i>
+                
+                <p><span class="bolder">L'ouïe fine</span><br>Écoute et perçoit les mélodies des intentions</p>
+              </li>
+              <li>
+                <i class="fa-solid fa-user"></i>
+                
+                <p><span class="bolder">Le nez expert</span><br>Dénicheur de concepts / Adepte du Dieu sanglier truffier</p>
+              </li>
+              <li>
+                <i class="fa-solid fa-hand"></i>
+                
+                <p><span class="bolder">Les mains habiles</span><br>+4 en crochetage de problèmes</p>
+              </li>
+              <li>
+                <i class="fa-solid fa-bullhorn"></i>
+                
+                <p><span class="bolder">La langue déliée</span><br>Art du monologue passioné pour défendre les projets </p>
+              </li>
+              <li>
+                <i class="fa-solid fa-user-tie"></i>
+                
+                <p><span class="bolder">La garde robe</span> <br>cape du caméléon : s'adapte à toutes les situations</p>
+              </li>
+             
+            </ul>
+        </div>
+        <div class="wrapper-btn-next">
+            <a href="tarot.html" class="btn-next">></a>
+        </div>
+    </main>
+	<script src="app.js"></script>
+  <script src="https://kit.fontawesome.com/1e79ba8f26.js" crossorigin="anonymous"></script>
+  </body>
+</html>
