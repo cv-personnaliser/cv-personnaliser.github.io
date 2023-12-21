@@ -48,7 +48,22 @@ padding: 1rem 1rem;
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
+.bureau{
+   padding: 0px 0px 0px 0px;
+}
+.bureau img{
+   display: block;
+   object-fit: cover;
+   width: 100%;
+   height: auto;
+   transition: none;
 
+}
+.bureau:hover img {
+    transform:none;
+ }
+
+ 
 
     </style>
   </head>
@@ -177,109 +192,137 @@ padding: 1rem 1rem;
              
           </div>
 
-<!-------------------------->
-<!-- TOUTES LES POP UP modal -->
-<!-------------------------->
-        <aside id="popUp-casque" class="popup">
-            <div class="popUpContainer">
-               <header>
-                <a href="#!" class="closePopUp">X</a>
-                <h2>casque</h2>
-               </header>
-              <article>
-                <div class="grid-modal">
-                  <div>Three</div>
-                  <div>Four</div>
-                  <div>Five</div>
-                </div>
-                
-              </article>
-           </div>           
-        </aside>
-        <aside id="popUp-armure" class="popup">
-          <div class="popUpContainer">
-             <header>
-              <a href="#!" class="closePopUp">X</a>
-              <h2>armure</h2>
-             </header>
-            <article>
-            </article>
-         </div>        
-         <a href="#!" class="closePopUpOutSide"></a>    
-      </aside>
-      <aside id="popUp-epee" class="popup">
-        <div class="popUpContainer">
-           <header>
-            <a href="#!" class="closePopUp">X</a>
-            <h2>épée</h2>
-           </header>
-          <article>
-          </article>
-       </div>        
-       <a href="#!" class="closePopUpOutSide"></a>    
-    </aside>
-    <aside id="popUp-gants" class="popup">
-      <div class="popUpContainer">
-         <header>
-          <a href="#!" class="closePopUp">X</a>
-          <h2>gants</h2>
-         </header>
-        <article>
-        </article>
-     </div>        
-     <a href="#!" class="closePopUpOutSide"></a>    
-  </aside>
-  <aside id="popUp-bottes" class="popup">
-    <div class="popUpContainer">
-       <header>
-        <a href="#!" class="closePopUp">X</a>
-        <h2>bottes</h2>
-       </header>
-      <article>
-      </article>
-   </div>        
-   <a href="#!" class="closePopUpOutSide"></a>    
-</aside>
-<aside id="popUp-amulette" class="popup">
-  <div class="popUpContainer">
-     <header>
-      <a href="#!" class="closePopUp">X</a>
-      <h2>amulette</h2>
-     </header>
-    <article>
-    </article>
- </div>        
- <a href="#!" class="closePopUpOutSide"></a>    
-</aside>
-<aside id="popUp-ring1" class="popup">
-  <div class="popUpContainer">
-     <header>
-      <a href="#!" class="closePopUp">X</a>
-      <h2>anneau main gauche</h2>
-     </header>
-    <article>
-    </article>
- </div>        
- <a href="#!" class="closePopUpOutSide"></a>    
-</aside>
-<aside id="popUp-ring2" class="popup">
-  <div class="popUpContainer">
-     <header>
-      <a href="#!" class="closePopUp">X</a>
-      <h2>anneau main droite</h2>
-     </header>
-    <article>
-    </article>
- </div>        
- <a href="#!" class="closePopUpOutSide"></a>    
-</aside>
-        
-        
-
         </div>
+            <div class="card bureau">
+               <img src="./images/inventaire/illus-bureau.png" /> 
+            </div>
         </div>
         
     </main>
+    <!-------------------------->
+<!-- TOUTES LES POP UP modal -->
+<!-------------------------->
+<aside id="popUp-casque" class="popup">
+   <div class="popUpContainer">
+      <header>
+       <a href="#!" class="closePopUp">X</a>
+       <h2>casque</h2>
+      </header>
+     <article>
+      <div class="pop-content-flex">
+         <img src="./images/inventaire/inv-01.jpg" alt="">
+         <img src="./images/inventaire/inv-02.jpg" alt="">
+       </div>
+     </article>
+  </div>           
+</aside>
+<aside id="popUp-armure" class="popup">
+ <div class="popUpContainer">
+    <header>
+     <a href="#!" class="closePopUp">X</a>
+     <h2>armure</h2>
+    </header>
+   <article>
+      <div class="pop-content-flex">
+         <img src="./images/inventaire/inv-03.jpg" alt="">
+         <img src="./images/inventaire/inv-04.jpg" alt="">
+       </div>
+   </article>
+</div>        
+<a href="#!" class="closePopUpOutSide"></a>    
+</aside>
+<aside id="popUp-epee" class="popup">
+<div class="popUpContainer">
+  <header>
+   <a href="#!" class="closePopUp">X</a>
+   <h2>épée</h2>
+  </header>
+ <article>
+   <div class="pop-content-flex">
+      <img src="./images/inventaire/inv-05.jpg" alt="">
+      <img src="./images/inventaire/inv-06.jpg" alt="">
+      <img src="./images/inventaire/inv-07.jpg" alt="">
+      <img src="./images/inventaire/inv-08.jpg" alt="">
+    </div>
+ </article>
+</div>        
+<a href="#!" class="closePopUpOutSide"></a>    
+</aside>
+<aside id="popUp-gants" class="popup">
+<div class="popUpContainer">
+<header>
+ <a href="#!" class="closePopUp">X</a>
+ <h2>gants</h2>
+</header>
+<article>
+   <div class="pop-content-flex">
+      <img src="./images/inventaire/inv-09.jpg" alt="">
+      <img src="./images/inventaire/inv-10.jpg" alt="">
+    </div>
+</article>
+</div>        
+<a href="#!" class="closePopUpOutSide"></a>    
+</aside>
+<aside id="popUp-bottes" class="popup">
+<div class="popUpContainer">
+<header>
+<a href="#!" class="closePopUp">X</a>
+<h2>bottes</h2>
+</header>
+<article>
+   <div class="pop-content-flex">
+      <img src="./images/inventaire/inv-11.jpg" alt="">
+      <img src="./images/inventaire/inv-12.jpg" alt="">
+    </div>
+</article>
+</div>        
+<a href="#!" class="closePopUpOutSide"></a>    
+</aside>
+<aside id="popUp-amulette" class="popup">
+<div class="popUpContainer">
+<header>
+<a href="#!" class="closePopUp">X</a>
+<h2>amulette</h2>
+</header>
+<article>
+   <div class="pop-content-flex">
+      <img src="./images/inventaire/inv-13.jpg" alt="">
+      <img src="./images/inventaire/inv-14.jpg" alt="">
+    </div>
+</article>
+</div>        
+<a href="#!" class="closePopUpOutSide"></a>    
+</aside>
+<aside id="popUp-ring1" class="popup">
+<div class="popUpContainer">
+<header>
+<a href="#!" class="closePopUp">X</a>
+<h2>anneau main gauche</h2>
+</header>
+<article>
+   <div class="pop-content-flex">
+      <img src="./images/inventaire/inv-17.jpg" alt="">
+      <img src="./images/inventaire/inv-18.jpg" alt="">
+    </div>
+</article>
+</div>        
+<a href="#!" class="closePopUpOutSide"></a>    
+</aside>
+<aside id="popUp-ring2" class="popup">
+<div class="popUpContainer">
+<header>
+<a href="#!" class="closePopUp">X</a>
+<h2>anneau main droite</h2>
+</header>
+<article>
+   <div class="pop-content-flex">
+      <img src="./images/inventaire/inv-15.jpg" alt="">
+      <img src="./images/inventaire/inv-16.jpg" alt="">
+    </div>
+</article>
+</div>        
+<a href="#!" class="closePopUpOutSide"></a>    
+</aside>
     <div class="wrapper-btn-next">
       <a href="tarot.html" class="btn-next">></a>
   </div>

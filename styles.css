@@ -56,7 +56,7 @@ hr{
 /**/
 .flex-2{
     display: flex;
-    align-items: center;
+    /*align-items: center;*/
     justify-content: center;
     width: 100%;
     gap:1rem;
@@ -65,6 +65,7 @@ hr{
 .wrapper-img{
     max-width: 700px;
     flex:5;
+    margin-top:58px;
 }
   .wrapper-contenu{
     max-width: 600px;

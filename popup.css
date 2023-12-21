@@ -1,6 +1,3 @@
-
-
-
 .popup{
     position: fixed;
     left: 0;
@@ -35,7 +32,7 @@
   }
   .popup article{
     background-color: var(--c-cream);
-    margin-top: 150px;
+    margin-top: 80px;
     padding: 1rem;
   }
   /* The cancel button on popup dialog */
@@ -62,4 +59,25 @@
   }
   .popup:target .popUpContainer{
     display: block;
+  }
+
+  .pop-content-flex{
+    display: grid;
+    gap: 1rem;
+  }
+  
+  .pop-content-flex img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  @media only screen and (min-width:700px){
+    .pop-content-flex{
+      display: grid;
+      gap: 1rem;
+      grid-template-columns: 1fr 1fr;
+
+    }
   }
