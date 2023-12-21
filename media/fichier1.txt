@@ -285,7 +285,7 @@ file:///C:/000-WORKS/000-sites/cv-221bakerstreet/index.html
 {
 /***** REF : *- note-projet-identité-candidat-* *****/
 "title" : " reveal de la candidature pour les enqueteurs"
-"content" : "bravo ! si vous lisez ceci, c'est que votre attention à ma candidature a mon teasing à porté ses fruits et que nous sommes sur la meme longueur d'ondes. sans plus attendre voici le lien vers une landing page standard, plus conventionnelle répondant aux attentes minimum de présentation de mes compétences: libre a vous d'ouvrir le lien, sans attendre la personnalisation du cv et de la lettre de motivation à l'etat de finalisation à l'heure de l'ecriture de ces lignes
+"content" : "bravo ! si vous lisez ceci, c'est que mon teasing a porté ses fruits. sans plus attendre voici le lien vers une landing page standard, plus conventionnelle, répondant aux attentes minimum de présentation de mes compétences: libre à vous d'ouvrir le lien, sans attendre la personnalisation du cv et de la lettre de motivation (à l'etat de finalisation à l'heure de l'ecriture de ces lignes)
 ****---- https://www.cyrilchemin.fr/ -----*****
 si j'ai retenue votre attention et que vous désirez dès à présent me contacter : 0628756394 - cyrilchemin@gmail.com
 
