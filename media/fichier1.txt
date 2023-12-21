@@ -1,0 +1,294 @@
+{
+/***** REF : *-job-* *-tp-* *-g2p-* *****/
+"title" : "HIRE ME 221BS dijon"
+}
+"content" : {
+------------------------------
+------------------------------
+documentations PRIMAIRE apres idéation rapide sur support papier:
+------------------------------
+------------------------------
+
+NOTE AU LECTEUR DU DOCUMENT :
+ceci est un fichier de travail personnel regroupant beaucoup de contenus et d'idées comportant surement des faiblesses qui seront modifier/non retenues lors de la phase de production du teaser.
+
+
+------------------------------
+> recherches faisabilité techniques :
+------------------------------
+
+>>> url anonyme 
+------------------------------
+>>>>>>>>>>> creation email proton unique / compte git user unique
+https://github.com/cv-personaliser/cv-personaliser/
+>>>>>>>>>>> trouver le nom spécifique à la candidature : hire-me-nom entreprise
+https://www.codeur.com/tuto/creation-de-site-internet/heberger-site-sur-github/
+>>> "pour la pédagogie / demonstration"
+> a ajouter : note : processus de veille > commencer un projet en essayant de "réinventer la roue" (contexte de temps d'idéation / permisivité des jalons) permet de veiller aux avancés . exemple dans le developpement : refaire from scratch le processus signIn/signUp : exercice basic pour se mettre à jour sur de la veille techno/sécu/etc
+
+tuto simple pour faire un projet hebergé simple sur github
+https://insys.fr/blog/comment-mettre-en-place-un-site-web-gratuit-avec-les-pages-github/
+
+ADRESSE CV :
+https://cv-personaliser.github.io/
+
+
+>>> design
+------------------------------
+>>> pour la pédagogie / demonstration > recherche google : "css flip card"
+> a ajouter : note : l'importance d'une bonne recherche (evocation prompt AI) optimisez votre démarche conceptuel et vos routines pour accelerer votre production
+> relier note: cours  : gestion de projet > experimentez / tater le réel from scratch pour identifier/quantifier les TJM de l'equipe > budgetiser
+> relier note cours : g2p > plus value de la démarche > faisabilité : détecter les fonctions/outils payant pour le fonctionnement du projet > budgetiser
+> relier note sur les wireframes créer lors de l'idéation
+
+> css button corner page
+https://codepen.io/littlesnippets/pen/xwKzae
+
+
+
+idées projets :
+------------------------------
+GAMIFY : design : flip card : jeu de tarot
+https://www.w3schools.com/howto/howto_css_flip_card.asp
+------------------------------
+GAMIFY : timer au couleurs de l'entreprise
+https://cssanimation.rocks/clocks/
+https://codepen.io/donovanh/pen/vEjywy
+>>>>>>>>>>>>>>>>> edit / change source :
+https://codepen.io/donovanh/pen/ZEbyoPQ
+
+>>> a faire : changer svg cadrant : chiffre romain : reprise cadrant logo entreprise
+
+
+CONTENUS Fiche produit POP
+Objectification / Totémisation pop / comparaison vente produit
+> img pop me new branding 2023
+
+
+
+CONTENUS cards tarot:
+
+affiche: compétences ? atouts ? taches ? métiers ?
+>>> décortiquer l'annonce point par point
+
+contenu global à afficher dans le projet sur les exigences du poste :
+/*en adequation avec le template / wireframe*/
+
+>>> missions : diversifié et variées : card généraliste > icon : stetoscope
+flip :
+promotion et la mise en avant de nos différentes activités : Escape Game, Escape mobile, Escape Enfants, Jeux géants, Murder Party, etc. sur le web, les
+réseaux sociaux et en version print.
+
+>>> missions : nous lançons prochainement plusieurs projets : card stratup / creation d'entreprises > icon : 
+flip : investissement perso dans creation de stratup / creation tpe pme artisans / 
+mentioné fil rouge de la re dynamisation des centre ville avec les commerces de proximité, culturel et les collectivité locales
+
+>>> missions : ’excellentes compétences pour création de contenu à destination des réseaux sociaux : Instagram, Facebook, YouTube et TikTok.
+
+>>> missions : Sous la responsabilité du gérant
+flip : bon déploiement de la stratégie définie en amont tout en restant force de proposition
+
+>>> missions : personne avec un intérêt particulier pour le monde ludique
+
+
+>>> Condition : basé à Dijon 
+> disclaimer : rouen - necessite un temps d'emmenagement
+> modulo : cercle social dans la région : possibilité d'hébergement ponctuel en début de mission
+
+
+>>> métier : responsable comm
+> disclamer : faible experience sur les taches du poste
+> modulo : pédagogie, collectif, participation-tif, challenger rooky
+
+
+>>> contrat : CDD 35h de 9 mois évolutif en CDI
+disclaimer : volontaire mais prefere un cdi avec renégociation de la periode d'essai à la hausse (a définir : exemple : jalon fin de prise en charge d'un projet specifique a long terme)
+modulo : libre et passionné par votre activité, la balance risque/investissement me fait accepter le cdd si c'est le disclaimer et bloquant
+
+
+
+>>>Rémunération :
+disclaimer : en vue du cout de la vie sur l'agglo > plutot fourchette haute
+modulo : négociation au terme du cdd
+
+>>> niveau d'études :
+atout : 1 b+2, 1 b+3, 1b+4
+disclaimer : pas b+3 en marketing / pas d'experience au poste
+modulo : experienceS lead création projet comm'externe / interne / général / produit numérique / produit physique 
+
+>>> compétences : Graphisme avec des logiciels PAO
+atout : professionel adobe depuis 2007
+specificité : illustrator guy since 2003 / 21ans
+specificité : veille actuelle sur l'integration des processus de prompt AI dans adobe pour une production accelérée mais pas synonyme de perte de créativité pour les utilisateurs de la suite
+disclaimer : aucunes connaissance de la suite Affinity.
+modulo : capacité à prendre en main l'outil sur le long terme, si c'est un point bloquant pour le poste
+
+>>> compétences : montage video
+atout : veille constante sur la creation / production de vidéo > tendances ou lames de fonds
+disclaimer : faible experience professionel mais forte experience dans le fan-sub manga dans les années 2000 : incrustations vostf / synchro image son (experience formatrice dans less méthodologies, indifférence à l'outil de production choisi)
+modulo : forte experience du motion grace à un début de carriere (2007) storyboarder et animateur flash
+
+
+>>> compétences : Création de print
+atout : toujours producteur régulier de supports de communcation papier
+spécificité : diversification des supports, élargi au supports physique en général (impression 3d, serigraphie, gravure laser, bache, impression UV)
+
+>>> coimpétences : Définir et mettre en place une stratégie de communication
+atout : lead sur beaucoup de projets de création d'entreprises ou digitalisation de la communcation globale d'entreprises déjà pérennes
+disclaimer : 30% des  projets n'ont pas été en capacité (financiere, investissement temps, ressources humaines etc) de tenir la ligne prévue
+modulo : des portes de sorties moins ambitieuses ont été mise en places
+
+
+>>> compétences : Community Management
+atout : vision et experience de la tache : Animation de contenus > les canaux ne sont que des outils spécifiques par rapport à une cible/un kpi / un parametre
+disclaimer : jamais occupé ce poste de maniere rémunérée
+modulo : forte experience en tant qu'animateur 
+> formateur pour differentes cibles (animation oral et continue) 
+> animateur de groupe de réflexion / communautés professionelles / adhérents association / d'enterrements de  vie de garçons et mariage
+> experience de beaucoup de canaux : réseaux sociaux privées ou démocratisés / e-mailing / concours / stands salons / tutoriels / challenge commerciaux / communication événementiel / réunion de travail / conférence 
+gros disclaimer : connaissances des codes tiktok mais toujours pas opérationnel pour en extraire la substance
+
+>>> compétences : Organisation & planification
+atout : vision multi scope temporel d'un projet : j'aime gérer et dissocié les temps courts et les vision a long terme
+disclaimer : atout aussi une faiblesse : pour m'engager, j'ai NECESSAIREMENT besoin de connaitre les enjeux des temps longs (pur produit de la génération Y : Why ??? ) 
+en savoir plus : voir documentation, études et statistiques commandé par natixis concernant l'integration de ma génération sur le marché du travail - partie enjeux / bien etre proffessionel / enjeux psychologiques - 
+
+
+>>> compétences : Aisance à l’écrit et à l’oral
+atout : démonstration par la preuve avec ce cv personnalisé et peu etre un entretien visio/physique
+disclaimer : possibilité de coquilles. Je n'intègre pas de correcteur orthographique dans le processus de création de ce projet. contraint par le temps je délaisse la phase de relecture / debugg / testing
+modulo : exercice de style, démarche créative attendue : 
+
+
+
+------récapitulatif des productions a fournir pour le teasing : (ordre chronologique de publication)
+- un mail personnaliser menant a l'url du site gamify
+- un site gamify
+- des livrables intermediaire pour les arcanes
+- un mail pour le reveal menant à l'upload du cv et de la lettre de motivation
+- une lettre de motivation personnalisé mais plus conventionnelle que la démarche teasing
+- un cv personnalisé mais plus conventionnel pour le reveal candidature
+
+
+------- + de détail
+- mail : simple html avec header image footer image body ="installez vous confortablement, cette candidature à l'offre d'emploi parrut sur votre taverne virtuelle franchisée FB/annuaire de portrait va vous etre presentée sous forme de teasing "
+
+}
+
+
+
+ELEMENTS REUTILISABLES CHARTE 221BS DYJON
+
+colors :
+
+dark blue :
+#1a263e 
+yellow:
+#fcc400
+sand:
+#bc954a
+
+
+
+
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+
+
+{
+/***** REF : *- -* *****/
+*-title:-*
+}
+note perso annexe sur le process : organisation de la raod map : "couches oigons" > scalabilité pour rendre rapidement quelque choses sans avoir a en rougir
+-gestion low def / standard / HD 
+>>> trois couches. low: juste du texte bien agencé  / standard : texte + icones bibliotheque material design ou font awesome / hd : texte + icones personalisée .png avec ombrages, effet de lumiere, integration dans le design
+Gains et pertes identifiés : + de temps d'idéation / conception mais peu réduire les temps de productions et une gestion réaliste du mini projet CV personnalisé gamifier
+}
+
+
+{
+/***** REF : *-time -* *****/
+*-
+"start" : "15/12/23"
+"end" : "xx/xx/xx"
+-*
+}
+{
+/***** REF : *-cv -* *****/
+*-
+"title": "221BBS dijon"
+-*
+}
+{
+/***** REF : *-project-* *****/
+*-title:-*
+}
+
+{
+/***** REF : *-demo-hireme-* *****/
+*-
+A SAVOIR :
+> Les notes de ce documents se réfère à l'écriture d'un cours / un TP destiné à plusieurs type de public
+> Se réferer à votre métier / statut d'apprenant
+-*
+}
+{
+/*****REF : *-pedago-CVPersonnaliser -*  *****/
+*-
+/*description document :*/
+/*document composite balisé*/
+/*cat : [ hire, demo, g2j, pedago, tp, starter-project, content ]*/
+-*
+}
+{
+/***** REF : *- note-challenge-* *****/
+"title" : "note-perso"
+content : " challenge perso : dans le processus de creation du projet, integrer l'eventualité d'un cours / tp / necessitant les fichiers/livrables intermediaire necessaire a l'ideation et la conception dans un design thinking particulier" 
+specificité : g2p : modulation du design thinking avec les contraintes primaires du projet
+ajout sur la note : gerer les scopes, les visions, importance du va et viens a la sources et le recoupements des données avant conception. "gain : parer les eventuels retard, imprévus / satisfaire les partis : gestion MOA / MOE"
+}
+
+{
+/***** REF : *-note-pedago-* *****/
+"tilte" : "note-réutlisation materiel existant"
+add content : réutilisation possible des concept, experimentations et solutions anterieur au projet:
+- gamify du projet  d'application de sondages pour un magasine local d'une metropole francaise > recolte statistiques avant éléction presidentielles
+- css Flip grid exploité lors d'un cours de démonstration pas a pas pour une audience de futur designer UI
+- stepify exploité lors d'un TP UX design : formulaire / user experience / recolte d'informations et rétention/adéhsion implicite de l'utilisateur
+}
+
+{
+/***** REF : *-note-pedago-projet-g2p -* *****/
+"title" : "reporting timers phase idéation papier + saisi de ce fichier"
+"content": " date : 16-12-2023 / picker timer projet : 11h / picker timer fichier : 5h
+
+"
+}
+{
+/***** REF : *- -* *****/
+*-title:-*
+}
+
+
+liens utiles pour l'annonce
+https://www.facebook.com/221b.escaperoom
+https://221b-dijon.com/
+https://fr.indeed.com/viewjob?jk=2777ae817af5c45f&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic&from=iaBackPress&from=smart-apply
+
+https://github.com/cv-personaliser/cv-personaliser
+file:///C:/000-WORKS/000-sites/cv-221bakerstreet/index.html
+
+
+
+
+{
+/***** REF : *- note-projet-identité-candidat-* *****/
+"title" : " reveal de la candidature pour les enqueteurs"
+"content" : "bravo ! si vous lisez ceci, c'est que votre attention à ma candidature a mon teasing à porté ses fruits et que nous sommes sur la meme longueur d'ondes. sans plus attendre voici le lien vers une landing page standard, plus conventionnelle répondant aux attentes minimum de présentation de mes compétences: libre a vous d'ouvrir le lien, sans attendre la personnalisation du cv et de la lettre de motivation à l'etat de finalisation à l'heure de l'ecriture de ces lignes
+****---- https://www.cyrilchemin.fr/ -----*****
+si j'ai retenue votre attention et que vous désirez dès à présent me contacter : 0628756394 - cyrilchemin@gmail.com
+
+Ludiquement votre,
+Cyril
+}

@@ -1,0 +1,82 @@
+shirt list tarot
+---------------------------
+---------------------------
+
+mission :
+variée
+Le généraliste
+stetoscope + becher + livre medical
+--
+<i class="fa-solid fa-stethoscope"></i>
+<i class="fa-solid fa-flask-round-potion"></i>
+<i class="fa-solid fa-book-medical"></i>
+<i class="fa-solid fa-suitcase-medical"></i>
+
+missions :
+lancement projets
+Le startupeur
+fusée
+--
+<i class="fa-solid fa-rocket"></i>
+<i class="fa-solid fa-shuttle-space"></i>
+
+
+missions 
+reseaux sociaux
+L'influenceur
+commu+big user / user+broadcast
+--
+<i class="fa-solid fa-tower-broadcast"></i>
+<i class="fa-solid fa-podcast"></i>
+<i class="fa-solid fa-bullhorn"></i>
+
+
+mission
+ludique
+L'amuseur
+chapeau clown / masque theatre
+--
+<i c--lass="fa-solid fa-dice"></i>
+<i class="fa-brands fa-critical-role"></i>
+<i class="fa-solid fa-masks-theater"></i>
+
+
+Condition
+basé à Dijon 
+le baroudeur
+planete / sac a dos
+---
+<i class="fa-solid fa-globe"></i>
+<i class="fa-solid fa-compass"></i>
+<i class="fa-solid fa-earth-europe"></i>
+<i class="fa-solid fa-route"></i>
+
+
+compétences
+logiciels PAO
+le fidele
+main ouverte + oréole
+--
+<i class="fa-solid fa-hands-holding-circle"></i>
+<i class="fa-solid fa-book-bible"></i>
+
+
+
+compétences
+print
+l'ancetre
+wizzard
+--
+<i class="fa-solid fa-hat-wizard"></i>
+
+
+
+compétences
+stratégie de communication
+le stratege
+ampoule cicle fleche 
+>bullseye arrow
+--
+<i class="fa-solid fa-chess"></i>
+<i class="fa-solid fa-bullseye-arrow"></i>
+<i class="fa-solid fa-magnifying-glass-chart"></i>

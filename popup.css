@@ -1,0 +1,65 @@
+
+
+
+.popup{
+    position: fixed;
+    left: 0;
+    z-index: 9999999;
+    background: rgba(0,0,0, 0.75);
+    width: 100vw;
+    height: 100vh;
+    opacity: 0;
+    padding: 0 !important;
+  }
+  .popup .popUpContainer{
+    background-color: var(--c-cream) !important;
+    display: none;
+    width: 100%;
+    z-index: 9999999; 
+    overflow-y:scroll ;
+    height: 100%;
+  }
+  .popup h2{
+    padding: 0.5em;
+    font-size: 2rem;
+    text-align: center;
+    color: var(--c-cream);
+    background-color: var(--c-dark-green);
+    position: fixed;
+    width: 100%;
+    z-index: 9999900; 
+  }
+  .popup img{
+    width: 100%;
+    display: block;
+  }
+  .popup article{
+    background-color: var(--c-cream);
+    margin-top: 150px;
+    padding: 1rem;
+  }
+  /* The cancel button on popup dialog */
+  .popup a.closePopUp{
+    font-family: verdana;
+    color: var(--c-yellow);
+    position: fixed;
+    top: 0em;
+    right: 0em;
+    margin: 1rem 2rem;
+    font-weight: bold;
+    font-size: 2.33em;
+    text-decoration: none;
+    z-index: 9999999; 
+  }
+  /* The cancel button on popup dialog */
+  .popup a:hover{
+    color: var(--c-sea-green);
+  }
+  /* When popup is targeted, by clicking on link with #popup in HTML */
+  .popup:target{
+    opacity: 1;
+    top: 0;
+  }
+  .popup:target .popUpContainer{
+    display: block;
+  }

@@ -5,9 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>candidature ARCANES</title>
-    <link rel="stylesheet" href="./styles.css">
+
     <link rel="stylesheet" href="./root.css">
     <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./popup.css">
     <link rel="icon" href="./images/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"
     />
@@ -71,21 +73,39 @@ padding: 1rem 1rem;
 }
 @media only screen and (min-width:1080px){
   .grid-items{
-        grid-template-columns: repeat(4, 1fr);
+        grid-template-columns: repeat(5, 1fr);
       }     
 }
       
-@media only screen and (min-width:1430px){
-  .grid-items{
-        grid-template-columns: repeat(5, 1fr);
-      }  
+
+.grid-buttons{display: flex;  gap:18px; align-content: space-around;padding:32px 32px;
+  margin-bottom: 10px;}
+
+.grid-buttons a{
+  background-color: var(--c-sea-green);
+  color: #ffffff;
+  padding: 1rem;
+  border-radius: 8px;
+  text-decoration: none;
+  flex:1;
+  text-align: center;
 }
-      
-@media only screen and (min-width:1730px){
-  .grid-items{
-        grid-template-columns: repeat(5, 1fr);
-      }  
+.grid-buttons a:hover{
+  background-color: var(--c-yellow);
+  color: black;
 }
+.grid-img{display: flex;  gap:18px; align-items: stretch; padding:32px 32px; margin-bottom: 10px;}
+.grid-img > *{
+  flex:1;
+}
+.grid-img  img {
+  display: block; height: 100%;object-fit : cover;
+}
+  
+  iframe{
+    width: 100%;
+    height: 90vh;
+  }
     </style>
   </head>
   <body>
@@ -112,106 +132,163 @@ padding: 1rem 1rem;
             <p class="" style="margin-bottom: 10px;padding:1rem 2rem;">
               J'espère que ma démarche aura suscitée l'intérêt souhaitée et que vous allez trouver comment me contacter grâce aux indices laissés. 
             </p>
+            <div class="grid-buttons">
+              <a href="#popUp-doc1" id="openPopUp">fichier 1</a>
+              <a href="#popUp-doc2" id="openPopUp">fichier 2</a>
+              <a href="#popUp-doc3" id="openPopUp">fichier 3</a>
+              <a href="#popUp-doc4" id="openPopUp">fichier 4</a>
+            </div>
+
+            <div class="grid-img">
+              <a
+                 data-fancybox="gallery"
+                 data-src="./images/arcanes/sc--clock-pourprojet.jpg"
+                 >
+                <img src="images/arcanes/sc--clock-pourprojet.jpg" />
+              </a>
+              <a
+                 data-fancybox="gallery"
+                 data-src="./images/arcanes/sc--cartouche-pourprojet.jpg"
+                 >
+                <img src="./images/arcanes/sc--cartouche-pourprojet.jpg" />
+              </a>
+        
+              <a
+                data-fancybox="gallery"
+                data-src="./images/arcanes/avap-pop-box.jpg"
+              >
+                <img src="./images/arcanes/avap-pop-box.jpg" />
+              </a>
+        
+              <a
+                data-fancybox="gallery"
+                data-src="./images/arcanes/sc--pop-ajout-pourprojet.jpg"
+              >
+                <img src="./images/arcanes/sc--pop-ajout-pourprojet.jpg" />
+              </a>
+              <a
+                 data-fancybox="gallery"
+                 data-src="./images/arcanes/sc--pop-dnd-pourprojet.jpg"
+                 >
+                <img src="./images/arcanes/sc--pop-dnd-pourprojet.jpg" />
+              </a>
+        </div>
+        <div class="grid-img">
+          <a
+             data-fancybox="gallery"
+             data-src="./images/arcanes/wf1.jpg"
+             >
+            <img src="./images/arcanes/wf1.jpg" />
+          </a>
+    
+          <a
+            data-fancybox="gallery"
+            data-src="./images/arcanes/wf2.jpg"
+          >
+            <img src="./images/arcanes/wf2.jpg" />
+          </a>
+    
+          <a
+            data-fancybox="gallery"
+            data-src="./images/arcanes/wf3.jpg"
+          >
+            <img src="./images/arcanes/wf3.jpg" />
+          </a>
+          <a
+             data-fancybox="gallery"
+             data-src="./images/arcanes/wf4.jpg"
+             >
+            <img src="./images/arcanes/wf4.jpg" />
+          </a>
+    </div>
+            
             
             <div class="grid-items">
-              <a
-                 data-fancybox="gallery"
-                 data-src="https://lipsum.app/id/2/1024x768"
-                 data-caption="legende de l'image 1"
-                 >
-                <img src="https://lipsum.app/id/2/200x150" />
-              </a>
-        
-              <a
-                data-fancybox="gallery"
-                data-src="https://lipsum.app/id/3/1024x768"
-                data-caption="legende de l'image 2"
-              >
-                <img src="https://lipsum.app/id/3/200x150" />
-              </a>
-        
-              <a
-                data-fancybox="gallery"
-                data-src="https://lipsum.app/id/4/1024x768"
-                data-caption="legende de l'image 3"
-              >
-                <img src="https://lipsum.app/id/4/200x150" />
-              </a>
-              <a
-                 data-fancybox="gallery"
-                 data-src="https://lipsum.app/id/2/1024x768"
-                 data-caption="legende de l'image 1"
-                 >
-                <img src="https://lipsum.app/id/2/200x150" />
-              </a>
-        
-              <a
-                data-fancybox="gallery"
-                data-src="https://lipsum.app/id/3/1024x768"
-                data-caption="legende de l'image 2"
-              >
-                <img src="https://lipsum.app/id/3/200x150" />
-              </a>
-        
-              <a
-                data-fancybox="gallery"
-                data-src="https://lipsum.app/id/4/1024x768"
-                data-caption="legende de l'image 3"
-              >
-                <img src="https://lipsum.app/id/4/200x150" />
-              </a>
-              <a
-                 data-fancybox="gallery"
-                 data-src="https://lipsum.app/id/2/1024x768"
-                 data-caption="legende de l'image 1"
-                 >
-                <img src="https://lipsum.app/id/2/200x150" />
-              </a>
-        
-              <a
-                data-fancybox="gallery"
-                data-src="https://lipsum.app/id/3/1024x768"
-                data-caption="legende de l'image 2"
-              >
-                <img src="https://lipsum.app/id/3/200x150" />
-              </a>
-        
-              <a
-                data-fancybox="gallery"
-                data-src="https://lipsum.app/id/4/1024x768"
-                data-caption="legende de l'image 3"
-              >
-                <img src="https://lipsum.app/id/4/200x150" />
-              </a>
-              <a
-                 data-fancybox="gallery"
-                 data-src="https://lipsum.app/id/2/1024x768"
-                 data-caption="legende de l'image 1"
-                 >
-                <img src="https://lipsum.app/id/2/200x150" />
-              </a>
-        
-              <a
-                data-fancybox="gallery"
-                data-src="https://lipsum.app/id/3/1024x768"
-                data-caption="legende de l'image 2"
-              >
-                <img src="https://lipsum.app/id/3/200x150" />
-              </a>
-        
-              <a
-                data-fancybox="gallery"
-                data-src="https://lipsum.app/id/4/1024x768"
-                data-caption="legende de l'image 3"
-              >
-                <img src="https://lipsum.app/id/4/200x150" />
-              </a>
+                <a data-fancybox="gallery" data-src="./images/arcanes/bs1.jpg" >
+                  <img src="./images/arcanes/bs1.jpg" />
+                </a>
+                <a data-fancybox="gallery" data-src="./images/arcanes/bs2.jpg" >
+                  <img src="./images/arcanes/bs2.jpg" />
+                </a>
+                <a data-fancybox="gallery" data-src="./images/arcanes/bs3.jpg" >
+                  <img src="./images/arcanes/bs3.jpg" />
+                </a>
+                <a data-fancybox="gallery" data-src="./images/arcanes/bs4.jpg" >
+                  <img src="./images/arcanes/bs4.jpg" />
+                </a>
+                <a data-fancybox="gallery" data-src="./images/arcanes/bs5.jpg" >
+                  <img src="./images/arcanes/bs5.jpg" />
+                </a>
+                <a data-fancybox="gallery" data-src="./images/arcanes/bs6.jpg" >
+                  <img src="./images/arcanes/bs6.jpg" />
+                </a>
+                <a data-fancybox="gallery" data-src="./images/arcanes/bs7.jpg" >
+                  <img src="./images/arcanes/bs7.jpg" />
+                </a>
+                <a data-fancybox="gallery" data-src="./images/arcanes/bs8.jpg" >
+                  <img src="./images/arcanes/bs8.jpg" />
+                </a>
+                <a data-fancybox="gallery" data-src="./images/arcanes/bs9.jpg" >
+                  <img src="./images/arcanes/bs9.jpg" />
+                </a>
+                
+              
             </div>
           </div>
         </div>
         </div>
         
     </main>
+
+    <!--les pop up-->
+    <aside id="popUp-doc1" class="popup">
+      <div class="popUpContainer">
+         <header>
+          <a href="#!" class="closePopUp">X</a>
+          <h2>premier fichier source, versionné et mis à jour</h2>
+         </header>
+        <article>
+          <iframe src="./media/fichier1.txt"></iframe> 
+        </article>
+     </div>        
+     <a href="#!" class="closePopUpOutSide"></a>    
+    </aside>
+    <aside id="popUp-doc2" class="popup">
+      <div class="popUpContainer">
+         <header>
+          <a href="#!" class="closePopUp">X</a>
+          <h2>fichier source : listes structurantes</h2>
+         </header>
+        <article>
+          <iframe src="./media/fichier2.txt"></iframe>
+        </article>
+     </div>        
+     <a href="#!" class="closePopUpOutSide"></a>    
+    </aside>
+    <aside id="popUp-doc3" class="popup">
+      <div class="popUpContainer">
+         <header>
+          <a href="#!" class="closePopUp">X</a>
+          <h2>fichier source : listes icones</h2>
+         </header>
+        <article>
+          <iframe src="./media/fichier3.txt"></iframe>
+        </article>
+     </div>        
+     <a href="#!" class="closePopUpOutSide"></a>    
+    </aside>
+    <aside id="popUp-doc4" class="popup">
+      <div class="popUpContainer">
+         <header>
+          <a href="#!" class="closePopUp">X</a>
+          <h2>fichier source : listes ressources annexes</h2>
+         </header>
+        <article>
+          <iframe src="./media/fichier4.txt"></iframe>
+        </article>
+     </div>        
+     <a href="#!" class="closePopUpOutSide"></a>    
+    </aside>
 
 	<script src="app.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>

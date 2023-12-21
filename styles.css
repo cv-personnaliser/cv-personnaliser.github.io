@@ -30,6 +30,7 @@ hr{
 }
 /*btn reccurent next page*/
 .wrapper-btn-next{
+    z-index: 999999;
     display: block;
     position: fixed;
     bottom:0;

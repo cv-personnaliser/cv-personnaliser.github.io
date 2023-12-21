@@ -1,0 +1,173 @@
+listes - découpe OFFRE EMPLOI  pour structuration du teasing - vu d'ensemble
+
+----------------------------
+chrnonologie g2p - versionning - productions anterieures a ce document
+- idéation sur supports papier
+- fichier structurant le brainstorming "hire me 221bs dijon"
+
+
+----------------------------
+
+récap réponses offre d'emploi :
+----------------
+
+
+missions 
+5
+condition
+1
+metier
+1
+contrat
+1
+rem
+1
+etude
+1
+compétences
+7
+
+
+
+----------------
+
+details offre d'emploi
+----------------
+
+
+missions 
+5
+- variété mission > icone : eventail ? nuancier ?
+- nouveaux projets > icone : badges / tag / étiquette ?
+- codes canaux de communications > icone : mégaphone ?
+- hiérarchie directe > icone : echelle ?
+- ludique > icone : dés ?
+
+conditions
+5
+- localisation > icone : carte ou boussole
+- metier > icone : casquette travailleur ou costard cravate
+- contrat > icone : lettre manuscrite / parchemin / sceau cire / lettre caligraphiée
+- remuneration > icone : stack coins / billet
+- etude > icone : hat degree
+
+compétences
+7
+- PAO > icone : picture
+- média mixte > icone : camera
+- print > icone : fax
+- strategie > icone : cogs 
+- animateur > icone : muppet / clown face
+- organisation > icone : check list
+- orateur > icone : micro / speaker on
+
+
+----------------
+
+COMMENT AFFICHER TOUT CA :
+
+GAMIFY premiere trame user experience:
+----------------
+
+intention : narratif evolutif, ton en adéquation, personas évolutif celon les ecrans / travailler sur le rythme et la découverte tout zazimut mais structuré
+
+{deux personas / deux discours / ton celon la cible
+1*- s'addresser a la personne en charge de l'adminstration du compte recrutement@221b-dijon.com . potentiellement RH
+2*- s'adresser à une entité impersonnel : l'entreprise
+}
+
+
+----------------
+
+répartition écrans en lien avec les solutions d'affichages imaginé ou "recyclé" de projets précendant - voir note-pedago : réutlisation materiel existant 
+--------------
+
+frame 1 - 
+logo animé entreprise
+txt :
+1* "il n'est pas encore l'heure d'ouvrir les cadeaux... mais des indices vous ferons patienter pour faire le bon choix en temps voullu"
+2* "offrez à votre entreprise un beau cadeau"
+**********************-----
+idée additionelle si jalons temps disponible : un fichier audio de presentation . ton souhaité : conteur mediéval/fantastique
+
+
+
+frame 2 -
+img figurine pop decontrac.png / ou personnalisation (jalon temps) : Pop-maitre du jeu .png
+-- mise en scene : dans l'ombre pour le teasing ? figurine déja dévoilée ?
+txt : 
+1* "laissez vous (teaser/influencer) par un produit de conception naine, forgé sur l'experience et l'experimentation, grace à un dieux (destiné / metaphore metal/terre)" soucieux de créer (artisanat / piece unique) doté de qualités diverses, dotant sa creation d'un esprit challenger etc"
+2* "en recrutant un élément pour parfaire votre parc de talents ? personnalité atypique ?"
+
+frame 3 - similaire pour les deux personas
+presentation produit : qualités visible / identifié - objectifié sur la figurine
+- "lunette / oeil vif : vision accru sur toutes les temporalités - artefact puissant"
+- "oreille : ouie fine / écoute et percoit les mélodies des intentions"
+- "nez expert : dénicher des concepts / réincarnation du dieu sanglier truffier
+- "mains habiles : +1 en crochettage de problemes "
+- "langue / bouche : déliée et perfectionner à l'art du monologue passioné pour défendre la cause commune du groupe"
+- "vetements / garde robe : cape d'illusion dite du caméléon : s'adapte a toutes les situations: presentations client,  open space professionnel ou décontracté, heures supp', kikurumi pour les heures de nuits"
+
+frame 4 - similaire pour les deux personas
+> texte : "initié aux arts de la divination, sa race/espece lui permet de vous tirer les cartes pour entrevoir votre futur collaborateur/equipier/aventurier. Il à lu votre annonce de recherche d'aventurier à la taverne dématerrialisée LudoSphere (tooltip avec l'adresse mail de recrutement)"
+> grille de cartes de tarot plus ou moins longues (jalon temps) avec css Flip / reveal / modal (jalon temps) 
+
+SHORT LISTS a faire dans les missions / conditions / compétences de l'annonce (jalons temps) :
+
+1- 
+2- 
+3- 
+
+4- 
+5- 
+6- 
+
+7- 
+8- 
+9- 
+
+frame 5- / changement de ton / narration
+arguments (ludophile???)
+> textes : "pour montrer son adhésion à la partie/ l'aventure que propose votre entreprise : "
+"en tant que futur collaborateur, et pour en reveler plus sur mon univers et ma personne, voici mon inventaire ludotheque / l'interieur de mon tardis"
+> simple grille images / photos de l'atelier / references et univers / jeux de sociétés etc.
+
+frame 6- / ending
+logo entreprise animation clock
++ zone glitch bouton vers page arcanes
+texte : "votre futur collaborateur  vous enverra une missive avec sa fiche de personnage a réceptionner chez le tavernier de votre auberge virtuelle a votre retour des conges de fetes de fins d'année paienne, soit en date du ardoise ou grès du mois de Nivôse du grand calendirer républicain de son peuple"
+
+
+frame secrete 7- /
+"obtenu grace à votre compétence *souci du détail* et votre bonus naturel *perception + 8*, voici les arcanes du mini projet CV personnalisé - partie teaser - candidature pour rejoindre l'aventure ludique 221bakerstreet dijon
+> lien vers simple page avec les fichiers texte structurant / des scans de la partie idéation préliminaire sur papier /les wireframes (si jalons temps possible)
+structure : 2 bloc css : balise<code> pour les fichiers txt + une galerie de scan en modal -visionneuse (+ou moins détaillée selon jalons temps)
+
+
+
+/***************** possiblité de changer l'ordre des frame entre 4et 5 pour meilleur experience user
+ 
+
+
+----------------------------------------------
+
+
+{
+/***** REF : *- note-pedago-g2p-idéation* *****/
+"title" : "apprendre a gérer sa creativité a travers une réécriture constante et de plus en plus détaillé et structurer de la demande - aboutir a des livrables intermediaires de presentation d'un concept/projet pour chaque situations"
+}
+
+
+{
+/***** REF : *-note-pedago-projet-g2p -* *****/
+"title" : "reporting timers phase idéation avant mise en production du mini projet de cv personnalisé 221bs"
+"content": " date : 16-12-2023 / picker timer projet : 11h / picker timer fichier : 6h
+
+"
+}
+
+
+{
+/***** REF : *- -* *****/
+*-title:-*
+}

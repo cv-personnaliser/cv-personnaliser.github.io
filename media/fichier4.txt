@@ -1,0 +1,81 @@
+---------------------------------------------
+---------------------------------------------
+Short list contenus pages secretes
+---------------------------------------------
+---------------------------------------------
+
+
+
+---------------------------------------------
+inventaire : contenu photos modal/dialog
+---------------------------------------------
+
+--casque 
+ludotheque grosse boite
+ludotheque grosse boite
+
+-- armure
+ludotheque petite boite
+ludotheque petite boite
+
+--épée
+etageres POP
+etageres POP
+etageres POP
+etageres POP
+
+--gants
+etageres crane
+etageres balrog
+etageres book
+etageres book
+
+--bottes
+materiel tria
+materiel peinture
+
+--amulette
+materiel lumiere photo
+materiel lumiere lightbox
+
+--anneau droit
+bureau all
+bureau wacom
+
+--anneau gauche
+videotheque
+videotheque
+videotheque
+videotheque
+
+
+
+
+---------------------------------------------
+arcanes :
+---------------------------------------------
+
+
+4 fichiers textes
+-- origine
+-- structuration
+-- listes icones
+-- listes détails medias pages secretes
+>>>>>>>> 4 boutons
+
+
+12 fichiers images scan branstorm papier
+>>>>>>>> grille fancybox
+
+
+
+4 avant apres ressources images
+
+
+
+
+
+
+
+
+
